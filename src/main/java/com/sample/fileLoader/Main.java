@@ -34,18 +34,16 @@ public class Main {
 			
 			//Execute shell command
 			try{
-				//ProcessBuilder processBuilder = new ProcessBuilder();
 				
 				// -- Linux --
 				// Run a shell command
-				//processBuilder.command("bash", "-c", "ls /home/vks/");
-				
+				//Process process = Runtime.getRuntime().exec("ls /home/vks/");
+				//String[] cmd = { "bash", "-c", "~/path/to/shellscript.sh foo bar" };
+								
 				// Run a bat file
 				String[] cmd = {"cmd", "/c", shellCmd, "admin", "pass", outputPath};
 				Process process = Runtime.getRuntime().exec(cmd);
 				
-				//processBuilder.command(shellCmd + " admin pass");
-				//Process process = processBuilder.start();
 				int exitVal = process.waitFor();
 				if (exitVal == 0) {
 					logger.info("Successfully executed command!");					
@@ -56,8 +54,7 @@ public class Main {
 			catch(InterruptedException e){
 					logger.error(e.getMessage());
 					logger.error(e);
-				}
-			
+			}
 		}
 		catch(IOException ex){
 			logger.error(ex.getMessage());
