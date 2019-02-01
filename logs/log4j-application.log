@@ -1,0 +1,52 @@
+2019-02-01 09:04:42 INFO  Main:12 - Starting...
+2019-02-01 09:04:42 INFO  Main:13 - Completed!
+2019-02-01 10:06:10 INFO  Main:18 - Starting...
+2019-02-01 10:06:10 INFO  Main:29 - .\sourceFolder
+2019-02-01 10:06:10 INFO  Main:30 - C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:06:10 INFO  Main:47 - Completed!
+2019-02-01 10:07:48 INFO  Main:18 - Starting...
+2019-02-01 10:07:48 INFO  Main:29 - Will look for files in: .\sourceFolder
+2019-02-01 10:07:48 INFO  Main:30 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:07:48 INFO  Main:47 - Completed!
+2019-02-01 10:37:32 INFO  Main:18 - Starting...
+2019-02-01 10:37:32 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:37:32 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:37:32 INFO  Main:45 - Successfully executed command!
+2019-02-01 10:37:32 INFO  Main:71 - Completed!
+2019-02-01 10:39:21 INFO  Main:18 - Starting...
+2019-02-01 10:39:21 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:39:21 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:39:21 ERROR Main:57 - Cannot run program "C:\Projects\root\Java\IntLoader\scripts\sample.batadmin pass": CreateProcess error=2, The system cannot find the file specified
+2019-02-01 10:39:21 ERROR Main:58 - java.io.IOException: Cannot run program "C:\Projects\root\Java\IntLoader\scripts\sample.batadmin pass": CreateProcess error=2, The system cannot find the file specified
+2019-02-01 10:39:21 INFO  Main:71 - Completed!
+2019-02-01 10:39:36 INFO  Main:18 - Starting...
+2019-02-01 10:39:36 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:39:36 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:39:36 ERROR Main:57 - Cannot run program "C:\Projects\root\Java\IntLoader\scripts\sample.bat admin pass": CreateProcess error=2, The system cannot find the file specified
+2019-02-01 10:39:36 ERROR Main:58 - java.io.IOException: Cannot run program "C:\Projects\root\Java\IntLoader\scripts\sample.bat admin pass": CreateProcess error=2, The system cannot find the file specified
+2019-02-01 10:39:36 INFO  Main:71 - Completed!
+2019-02-01 10:47:33 INFO  Main:18 - Starting...
+2019-02-01 10:47:33 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:47:33 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:49:01 INFO  Main:18 - Starting...
+2019-02-01 10:49:01 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:49:01 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:50:44 INFO  Main:18 - Starting...
+2019-02-01 10:50:44 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:50:44 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:50:44 INFO  Main:48 - Successfully executed command!
+2019-02-01 10:50:44 INFO  Main:74 - Completed!
+2019-02-01 10:58:36 INFO  Main:18 - Starting...
+2019-02-01 10:58:36 INFO  Main:27 - Will look for files in: .\sourceFolder
+2019-02-01 10:58:36 INFO  Main:28 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:58:36 INFO  Main:29 - Output path: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:58:36 INFO  Main:50 - Successfully executed command!
+2019-02-01 10:58:36 INFO  Main:76 - Completed!
+2019-02-01 10:59:58 INFO  Main:18 - 
+
+2019-02-01 10:59:58 INFO  Main:19 - Starting...
+2019-02-01 10:59:58 INFO  Main:28 - Will look for files in: .\sourceFolder
+2019-02-01 10:59:58 INFO  Main:29 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 10:59:58 INFO  Main:30 - Output path: C:\Projects\root\Java\IntLoader\output
+2019-02-01 10:59:58 INFO  Main:51 - Successfully executed command!
+2019-02-01 10:59:58 INFO  Main:77 - Completed!
