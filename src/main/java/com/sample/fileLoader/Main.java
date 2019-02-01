@@ -3,6 +3,7 @@ package com.sample.fileLoader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.log4j.LogManager;
@@ -32,6 +33,10 @@ public class Main {
 			String shellCmd = prop.getProperty("shellCmd");
 			String outputPath = prop.getProperty("outputPath");
 			
+			Filer filer = new Filer(sourceDir);
+			List<String> fileList = filer.getCurrentDayFiles();
+			
+			/*
 			//Execute shell command
 			try{
 				
@@ -55,6 +60,7 @@ public class Main {
 					logger.error(e.getMessage());
 					logger.error(e);
 			}
+			*/
 		}
 		catch(IOException ex){
 			logger.error(ex.getMessage());
