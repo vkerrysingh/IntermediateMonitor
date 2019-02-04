@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.tools.ant.DirectoryScanner;
 
 /*
  * Used to capture an initail list of files with today's timestamp
@@ -32,6 +33,13 @@ public class Filer {
 	 * get a list of files in the sourceDir
 	 */
 	private void getFilPathomSourceDir(){		
+		DirectoryScanner scanner = new DirectoryScanner();
+		scanner.setIncludes(new String[]{"**/*.java"});
+		scanner.setBasedir("C:/Temp");
+		scanner.setCaseSensitive(false);
+		scanner.scan();
+		String[] files = scanner.getIncludedFiles();
+		
 		File sourcePath = new File(sourceDir);		
 		filesInDIr = sourcePath.list();
 	}

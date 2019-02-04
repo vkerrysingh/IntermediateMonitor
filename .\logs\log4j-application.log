@@ -1,0 +1,13 @@
+2019-02-01 20:59:49 INFO  Main:19 - 
+
+2019-02-01 20:59:49 INFO  Main:20 - Starting...
+2019-02-01 20:59:49 ERROR Main:66 - .\config\config.properties (No such file or directory)
+2019-02-01 20:59:49 ERROR Main:67 - java.io.FileNotFoundException: .\config\config.properties (No such file or directory)
+2019-02-01 20:59:49 INFO  Main:80 - Completed!
+2019-02-01 21:04:29 INFO  Main:19 - 
+
+2019-02-01 21:04:29 INFO  Main:20 - Starting...
+2019-02-01 21:04:29 INFO  Main:30 - Will look for files in: .\sourceFolder
+2019-02-01 21:04:29 INFO  Main:31 - Shell commad to run: C:\Projects\root\Java\IntLoader\scripts\sample.bat
+2019-02-01 21:04:29 INFO  Main:32 - Output path: C:\Projects\root\Java\IntLoader\output
+2019-02-01 21:04:29 INFO  Filer:46 - Looking for files with 20190201 in the file name

@@ -8,6 +8,7 @@ import java.util.Properties;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.tools.ant.DirectoryScanner;
 
 
 public class Main {
@@ -18,22 +19,14 @@ public class Main {
 		
 		logger.info("\n");
 		logger.info("Starting...");
-		Properties prop = new Properties();
-		InputStream input = null;
+		
+		
 		
 		try{
-			//Read config file
-			input = new FileInputStream(".\\config\\config.properties");			
-			prop.load(input);
+			ConfigReader config = new ConfigReader();
+			Properties prop = config.getConfig();
 			
-			logger.info("Will look for files in: "+ prop.getProperty("sourceDir"));
-			logger.info("Shell commad to run: " + prop.getProperty("shellCmd"));
-			logger.info("Output path: " + prop.getProperty("outputPath"));
-			String sourceDir = prop.getProperty("sourceDir");
-			String shellCmd = prop.getProperty("shellCmd");
-			String outputPath = prop.getProperty("outputPath");
-			
-			Filer filer = new Filer(sourceDir);
+			Filer filer = new Filer(prop.getProperty("sourceDir"));
 			List<String> fileList = filer.getCurrentDayFiles();
 			
 			/*
@@ -62,21 +55,7 @@ public class Main {
 			}
 			*/
 		}
-		catch(IOException ex){
-			logger.error(ex.getMessage());
-			logger.error(ex);
-		}
-		finally{
-			if(input != null){
-				try{
-					input.close();
-				}
-				catch(IOException e){
-					logger.error(e.getMessage());
-					logger.error(e);
-				}
-			}
-		}
+		
 		logger.info("Completed!");
 	}
 
